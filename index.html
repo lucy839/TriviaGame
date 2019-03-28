@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- reset  css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+        integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Germania+One|ZCOOL+XiaoWei" rel="stylesheet">
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <!-- display title -->
+    <div id="title">
+        <i class="fab fa-fort-awesome"></i> Disney Trivia <i class="fab fa-fort-awesome"></i>
+    </div>
+    <!-- message to usere -->
+    <div id="message">
+        <!-- time -->
+        <div id="time-left"> </div>
+        <!-- intro -->
+        <div id="instruction">
+            <h1>Welcome to Disney Trivia!</h1>
+            <p>You will have 10 seconds to answer the question.<br>
+                If you answer 8 out of 10 questions correct,<br> you are a <span>DISNEY MASTER </span>!<br>
+                Click start to test!
+            </p>
+            <button id="start">
+                <h2>Start</h2>
+            </button>
+        </div>
+        <div id="correct"></div>
+        <div id="image-holder"></div>
+        <!-- display queston -->
+        <div id=question>
+        </div>
+        <!-- answer choices -->
+        <div id=answerChoices>
+        </div>
+        <div id=report> </div>
+        <i class="fas fa-crown"></i>
+        <!-- restart button -->
+        <button id="restart">
+                <h2>Restart</h2>
+        </button>
+    </div>
+
+    <!-- music  -->
+    <iframe id="play" src="https://www.youtube.com/embed"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>

@@ -1,0 +1,186 @@
+/* general */
+#play{
+    width:5px;
+    height:5px;
+    opacity:0;
+}
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover; 
+    padding-top:5%;
+}
+/* title */
+#title{
+    border: 10px outset #FFFF51 ;
+    background: #011457;
+    color: white;
+    display: inline;
+    font-size: 100px;
+    text-align: center;
+    padding:3% 5% 3% 5%;
+    margin-left: 17.5%;
+    margin-top:10%;
+    font-family: 'Germania One', cursive;
+}
+.fa-fort-awesome{
+    color: #FFFF51;
+}
+
+/* game content */
+#message{
+    color:#011457;
+    border: 5px outset #011457;
+    background: #FFFF51;
+    width:650px;
+    height:330px;
+    margin-top:6%;
+    margin-left:21.5%;
+    padding:2% 5% 3% 5%;
+}
+#instruction h1, #question{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom:5%;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+#instruction  {
+    font-size:25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    line-height: 150%;
+    display:inline;
+    text-align: center;
+}
+#instruction p{
+    margin-bottom:3%;
+}
+#question{
+    color:#011457;
+    font-size:30px;
+    text-align:center;
+}
+label{
+    font-size:20px;
+}
+#answerChoices{
+    margin-left:30%;
+}
+#time-left{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* displaying answer and report */
+#image-holder{
+    width: 250px;
+    height: 150px;
+    margin-left:20%;
+}
+#correct{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    padding: 1%;
+    margin: 0% 1% 5% 1%;
+    padding-top:0%;
+}
+.fa-crown{
+    margin-top:0%;
+    margin-left:40%;
+    font-size: 100px;
+}
+span{
+    font-weight: bold;
+    font-size: 40px;
+}
+#report{
+    padding:3%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom:0%;
+}
+
+/* buttons */
+#start{
+    background-color: #011457;
+    padding:2% 4% 2% 4%;
+    margin-left:42.5%;
+}
+#start h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+#restart{
+    background-color: #011457;
+    padding:2% 4% 2% 4%;
+    margin-left:38%;
+    margin-top:2%;
+}
+#restart h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/* media query */
+@media screen and (max-width: 980px) {
+    body{
+        background-size:130%;
+        padding-top:6%;
+    }
+    #title{
+       font-size:80px;
+       margin-left:15%;
+    }
+    #message{
+        height:380px;
+        margin-left:12.5%;
+        padding:5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-size: 200%;
+        padding-top: 8%;
+    }
+    #title{
+        font-size:60px;
+        margin-left:14%;
+     }
+    #message{
+        margin-top:8%;
+        margin-left:5%;
+        width:600px;
+        height:400px;
+    }
+    #correct{
+        margin-bottom:2%;
+    }
+    #correct, #report, #answerChoices{
+        font-size:30px;
+    }
+    #image-holder{
+        margin-left:17%;
+    }
+    #time-left{
+        margin-bottom:2%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #title{
+        margin-left: 8%;
+    }
+    #message{
+        margin-left:3%;
+        width:525px;
+        height:450px;
+    }
+    #image-holder{
+        margin-left:15%;
+    }
+}
