@@ -11,6 +11,15 @@ Enjoy!
 
 -   mobile responsive, work in progress.. See you soon on the phone too!
 
+## Conflicts & Solution
+-   Reducing redundacy of writing function each time question and answers are displayed was challening. Object was practiced once more to solve this conflict.
+
+## Techinical Approach
+-   In addition to all the techniques used so far, set interval, clear interval, and set timeout was used.
+
+## Future
+-   Incorporate API for questions and answers to make game more dynamic with options of questions and levels of games.
+
 ## Link to Game
 
 -   https://lucy839.github.io/TriviaGame/
