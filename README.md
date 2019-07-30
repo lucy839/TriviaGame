@@ -21,5 +21,7 @@
 -   Incorporate API for questions and answers to make game more dynamic. Keeping track of scores using storage to ensure user can always revist the game.
 
 ## Link to Game
-
 -   https://lucy839.github.io/TriviaGame/
+
+## Demo
+- ![Alt text](assets/images/demo.png?raw=true  "demo") 
